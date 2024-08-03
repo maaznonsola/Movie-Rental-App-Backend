@@ -1,0 +1,7 @@
+{
+	"name": "Vidly API",
+	"jwtPrivateKey": "",
+	"db": "mongodb://127.0.0.1:27017/my_vidly",
+	"port": "3900",
+	"NODE_ENV": "production"
+}

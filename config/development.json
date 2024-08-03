@@ -1,0 +1,5 @@
+{
+	"name": "Vidly - Development",
+	"NODE_ENV": "development",
+	"jwtPrivateKey": "12345678"
+}
