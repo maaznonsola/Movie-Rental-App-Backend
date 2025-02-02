@@ -26,6 +26,65 @@ This version of the application does not focus on or include:
 
 The [Fronted React application](https://github.com/maaznonsola/Movie-Rental-App-Frontend-v2) can also be viewed on GitHub.
 
+# Backend Dependencies
+
+## **Server Framework**
+
+- **[express](https://expressjs.com/)**: A minimal and flexible Node.js web framework for building APIs and handling HTTP requests/responses.
+
+---
+
+## **Security**
+
+- **[bcrypt](https://www.npmjs.com/package/bcrypt)**: Used for hashing passwords to enhance security in authentication processes.
+- **[helmet](https://helmetjs.github.io/)**: Helps secure Express apps by setting various HTTP headers.
+- **[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)**: Enables the creation and verification of JSON Web Tokens (JWTs) for secure communication.
+
+---
+
+## **Request Validation**
+
+- **[joi](https://joi.dev/)**: A schema-based validation library to define and validate request payloads.
+- **[joi-objectid](https://www.npmjs.com/package/joi-objectid)**: A Joi extension for validating MongoDB ObjectId values.
+
+---
+
+## **Database**
+
+- **[mongoose](https://mongoosejs.com/)**: An Object Data Modeling (ODM) library for MongoDB, allowing schema-based modeling and interaction with the database.
+
+---
+
+## **Logging & Monitoring**
+
+- **[winston](https://github.com/winstonjs/winston)**: A logging library for tracking errors and application activities.
+- **[winston-mongodb](https://github.com/winstonjs/winston-mongodb)**: Extends Winston to store logs directly in MongoDB.
+- **[morgan](https://www.npmjs.com/package/morgan)**: HTTP request logger middleware for monitoring API calls.
+- **[debug](https://www.npmjs.com/package/debug)**: A utility for conditional logging during development.
+
+---
+
+## **Performance Optimization**
+
+- **[compression](https://www.npmjs.com/package/compression)**: Middleware to compress HTTP responses for faster transmission.
+
+---
+
+## **Middleware & Utilities**
+
+- **[express-async-errors](https://www.npmjs.com/package/express-async-errors)**: Handles errors in asynchronous functions without requiring try-catch blocks.
+- **[cors](https://www.npmjs.com/package/cors)**: Enables Cross-Origin Resource Sharing (CORS) for handling requests from different domains.
+- **[config](https://www.npmjs.com/package/config)**: Manages application configurations across different environments.
+- **[lodash](https://lodash.com/)**: Provides utility functions for operations on arrays, objects, and more.
+
+---
+
+## **Development Tools**
+
+- **[nodemon](https://nodemon.io/)**: Automatically restarts the server during development when file changes are detected.
+
+---
+
 ## Application Context Overview
 
 The mock context for this application was a Movie rental shop.
